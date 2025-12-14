@@ -31,8 +31,8 @@ var config = {
         // === SALA DE ESTAR / JANTAR ===
         "sala_estar_1": {
             "title": "Sala de Estar",
-            "type": "equirectangular",
-            "panorama": "salavista1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "salavista1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 10, "type": "scene", "text": "Sala de Jantar", "sceneId": "sala_jantar_1" },
@@ -43,8 +43,8 @@ var config = {
         },
         "sala_jantar_1": {
             "title": "Sala de Jantar",
-            "type": "equirectangular",
-            "panorama": "salajantar1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "salajantar1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Sala de Estar", "sceneId": "sala_estar_1" }
@@ -54,8 +54,8 @@ var config = {
         // === CORREDOR / LAVABO ===
         "corredor_1": {
             "title": "Corredor",
-            "type": "equirectangular",
-            "panorama": "corredor1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "corredor1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Sala de Estar", "sceneId": "sala_estar_1" },
@@ -66,8 +66,8 @@ var config = {
         },
         "lavabo_1": {
             "title": "Lavabo",
-            "type": "equirectangular",
-            "panorama": "lavabovista1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "lavabovista1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Corredor", "sceneId": "corredor_1" }
@@ -77,8 +77,8 @@ var config = {
         // === SUÍTE 1 ===
         "suite_1_1": {
             "title": "Suíte 1 - Vista Principal",
-            "type": "equirectangular",
-            "panorama": "suite1vista1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "suite1vista1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Sair da Suíte", "sceneId": "corredor_1" },
@@ -88,8 +88,8 @@ var config = {
         },
         "suite_1_armario": {
             "title": "Suíte 1 - Armário",
-            "type": "equirectangular",
-            "panorama": "suite1armario.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "suite1armario.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Suíte 1", "sceneId": "suite_1_1" }
@@ -97,8 +97,8 @@ var config = {
         },
         "banheiro_1": {
             "title": "Banheiro 1",
-            "type": "equirectangular",
-            "panorama": "banheiro1vista1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "banheiro1vista1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Suíte 1", "sceneId": "suite_1_1" }
@@ -108,8 +108,8 @@ var config = {
         // === SUÍTE 2 ===
         "suite_2_1": {
             "title": "Suíte 2 - Vista Principal",
-            "type": "equirectangular",
-            "panorama": "suite2vista1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "suite2vista1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Sair da Suíte", "sceneId": "corredor_1" },
@@ -119,8 +119,8 @@ var config = {
         },
         "suite_2_escrivaninha": {
             "title": "Suíte 2 - Escrivaninha/TV",
-            "type": "equirectangular",
-            "panorama": "suite2escrivaninha.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "suite2escrivaninha.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Suíte 2", "sceneId": "suite_2_1" }
@@ -128,8 +128,8 @@ var config = {
         },
         "banheiro_2": {
             "title": "Banheiro 2",
-            "type": "equirectangular",
-            "panorama": "banheiro2vista1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "banheiro2vista1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Suíte 2", "sceneId": "suite_2_1" }
@@ -139,8 +139,8 @@ var config = {
         // === COZINHA / LAVANDERIA ===
         "cozinha_1": {
             "title": "Cozinha - Bancada",
-            "type": "equirectangular",
-            "panorama": "cozinhabancada1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "cozinhabancada1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Sala", "sceneId": "sala_estar_1" },
@@ -150,8 +150,8 @@ var config = {
         },
         "cozinha_despensa": {
             "title": "Cozinha - Despensa",
-            "type": "equirectangular",
-            "panorama": "cozinhadespensavista1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "cozinhadespensavista1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Cozinha", "sceneId": "cozinha_1" }
@@ -159,8 +159,8 @@ var config = {
         },
         "lavanderia_1": {
             "title": "Lavanderia",
-            "type": "equirectangular",
-            "panorama": "lavanderiavista2.png", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "lavanderiavista2.png",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Cozinha", "sceneId": "cozinha_1" }
@@ -170,8 +170,8 @@ var config = {
         // === TERRAÇO ===
         "terraço_1": {
             "title": "Terraço Integrado",
-            "type": "equirectangular",
-            "panorama": "terracosalatransicao1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "terracosalatransicao1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Sala de Estar", "sceneId": "sala_estar_1" },
@@ -180,8 +180,8 @@ var config = {
         },
         "terraço_gourmet": {
             "title": "Terraço - Área Gourmet",
-            "type": "equirectangular",
-            "panorama": "terracovista1.jpeg", // CORRIGIDO: Removido 'assets/'
+            "type": "flat", // CORRIGIDO: De 'equirectangular' para 'flat'
+            "panorama": "terracovista1.jpeg",
             "hfov": 90, "maxHfov": 90, "minHfov": 90,
             "hotSpots": [
                 { "pitch": 0, "yaw": 180, "type": "scene", "text": "Voltar para Terraço", "sceneId": "terraço_1" }
