@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Tour Virtual Apartamento</title>
+    <link rel="stylesheet" href="pannellum.css"/>
+    <style>
+        #panorama {
+            width: 100%;
+            height: 100vh;
+        }
+        body { margin: 0; overflow: hidden; }
+
+        /* Estilos para o Mapa */
+        #map-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 200px; /* Tamanho fixo do mapa */
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            z-index: 10; /* Acima do panorama */
+        }
+        #floor-plan {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        #map-marker {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #FF4500; /* Laranja/Vermelho para destaque */
+            border-radius: 50%;
+            border: 2px solid #FFFFFF;
+            transform: translate(-50%, -50%); /* Centraliza o marcador no ponto */
+            transition: top 0.5s, left 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div id="panorama"></div>
+    <div id="map-container">
+        <img id="floor-plan" src="assets/planta_baixa.png" alt="Planta Baixa do Apartamento">
+        <div id="map-marker"></div>
+    </div>
+    <script type="text/javascript" src="pannellum.js"></script>
+    <script type="text/javascript" src="tour_config.js"></script>
+</body>
+</html>
