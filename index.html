@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <title>Tour Virtual Apartamento</title>
-    <link rel="stylesheet" href="pannellum.css"/>
+    <!-- Referência ao CSS do Pannellum via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
     <style>
         #panorama {
             width: 100%;
@@ -43,10 +44,12 @@
 <body>
     <div id="panorama"></div>
     <div id="map-container">
-        <img id="floor-plan" src="assets/planta_baixa.png" alt="Planta Baixa do Apartamento">
+        <img id="floor-plan" src="assets/plantabaixa.png" alt="Planta Baixa do Apartamento">
         <div id="map-marker"></div>
     </div>
-    <script type="text/javascript" src="pannellum.js"></script>
+    <!-- Referência ao JS do Pannellum via CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <!-- Seu arquivo de configuração -->
     <script type="text/javascript" src="tour_config.js"></script>
 </body>
 </html>
